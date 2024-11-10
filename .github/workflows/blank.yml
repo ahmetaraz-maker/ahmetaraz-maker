@@ -1,0 +1,26 @@
+            - name: AniList Animes Action
+  # You may pin to the exact commit or the version.
+  # uses: Glup3/anilist-animes-action@bf6b4c63e83499738e1a208e96b7a5a45680b743
+  uses: Glup3/anilist-animes-action@v1.1.0
+  with:
+    # Username used for committing to the repository
+    COMMIT_USERNAME: # optional, default is AniList Action BOT
+    # Email used for committing to the repository
+    COMMIT_EMAIL: # optional, default is anilist-action-bot@github.com
+    # Message used for committing to the repository
+    COMMIT_MESSAGE: # optional, default is Updated Markdown with Users Anime List
+    # AniList Username
+    ANILIST_USERNAME: 
+    # Path to the markdown file
+    MARKDOWN_PATH: # optional, default is ./README.md
+    # Title for the header section
+    HEADER_TITLE: # optional, default is My Anime Lists
+    # Image height (px) in the grid
+    IMG_HEIGHT: # optional, default is 200
+    # Image width (px) in the grid
+    IMG_WIDTH: # optional, default is 150
+    # Display animes as grid instead of a list
+    ANIME_GRID: # optional, default is true
+    # Display animes as grid instead of a list
+    MANGA_GRID: # optional, default is true
+          
